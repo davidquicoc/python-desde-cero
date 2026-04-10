@@ -9,7 +9,7 @@ import random
 
 intentos = 10
 num_secreto = random.randint(1, 100)
-num_ingresado = int(input("Introduzca un número: "))
+num_ingresado = int(input("Introduce un número: "))
 
 while num_secreto != num_ingresado and intentos > 1:
     if num_secreto > num_ingresado:
@@ -23,4 +23,4 @@ while num_secreto != num_ingresado and intentos > 1:
 if num_secreto == num_ingresado:
     print("Correcto. Número de intentos:",intentos)
 else:
-    print("El numero era: ",num_secreto)
+    print("El numero era:",num_secreto)

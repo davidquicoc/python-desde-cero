@@ -5,7 +5,7 @@ cont_neg = 0
 cont_pos = 0
 cont_cero = 0
 
-cant = int(input("Cantidad de número a introducir: "))
+cant = int(input("Cantidad de números a introducir: "))
 
 for i in range(1, cant + 1):
     print("Número ",i,": ",end="",sep="")
