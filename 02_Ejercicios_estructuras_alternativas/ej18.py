@@ -1,4 +1,5 @@
-# Realiza un programa que pida el día de la semana (del 1 al 7) y escriba el día correspondiente. Si introducimos otro número nos da un error.
+# Realiza un programa que pida el día de la semana (del 1 al 7) y escriba el
+# día correspondiente. Si introducimos otro número nos da un error.
 
 dia = int(input("Introduce un día de la semana (1-7):"))
 if dia == 1:

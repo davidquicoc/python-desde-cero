@@ -22,4 +22,3 @@ if dia < 0 or dia > dias_del_mes:
 	print("Fecha incorrecta")
 else:
 	print("Fecha correcta")
-

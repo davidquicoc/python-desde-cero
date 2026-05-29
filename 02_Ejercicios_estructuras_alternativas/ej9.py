@@ -1,8 +1,8 @@
 # Algoritmo que pida tres números y los muestre ordenados (de mayor a menor)
 
-n1 = float(input("Número 1: "))
-n2 = float(input("Número 2: "))
-n3 = float(input("Número 3: "))
+n1 = float(input("Nº1: "))
+n2 = float(input("Nº2: "))
+n3 = float(input("Nº3: "))
 
 if n1 > n2 and n1 > n3:
     if n2 > n3:

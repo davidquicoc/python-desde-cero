@@ -1,4 +1,5 @@
-# Escribe un programa que pida un número entero entre uno y doce e imprima el número de días que tiene el mes correspondiente.
+# Escribe un programa que pida un número entero entre uno y doce e imprima el número
+# de días que tiene el mes correspondiente.
 
 mes = int(input("Introduce el número de mes (1-12):"))
 if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
