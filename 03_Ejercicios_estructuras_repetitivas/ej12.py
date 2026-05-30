@@ -1,0 +1,9 @@
+# Realizar un algoritmo para determinar cuánto ahorrará una persona en un año, si
+# al final de cada mes deposita cantidades variables de dinero; además, se quiere
+# saber cuánto lleva ahorrado cada mes.
+
+ahorro_acumulado = 0
+for mes in range(1, 13):
+    cantidad_mensual = float(input("Introduce la cantidad ahorrada en %s: " % mes))
+    ahorro_acumulado += cantidad_mensual
+    print("Mes ",mes,": ",cantidad_mensual,". Llevas ahorrado: ",ahorro_acumulado, sep="")

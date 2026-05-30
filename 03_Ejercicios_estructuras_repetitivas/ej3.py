@@ -7,8 +7,8 @@ cont = 0
 num = int(input("Introduce un número: "))
 
 while num != 0:
-    suma = suma + num
-    cont = cont + 1
+    suma += num
+    cont += 1
     num = int(input("Introduce un número: "))
 
 if cont > 0:
@@ -16,5 +16,5 @@ if cont > 0:
 else:
     media = 0
 
-print("Suma:",suma)
-print("Media:",media)
+print("Suma: %i" % suma)
+print("Media: %.2f" % media)

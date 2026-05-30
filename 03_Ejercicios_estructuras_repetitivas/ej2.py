@@ -1,0 +1,28 @@
+# Crea una aplicación que permita adivinar un número. La aplicación genera
+# un número aleatorio del 1 al 100. A continuación va pidiendo números y va
+# respondiendo si el número a adivinar es mayor o menor que el introducido, a
+# demás de los intentos que te quedan (tienes 10 intentos para acertarlo).
+# 
+# El programa termina cuando se acierta el número (además te dice en cuantos
+# intentos lo has acertado), si se llega al limite de intentos te muestra
+# el número que había generado.
+
+import random
+
+intentos = 10
+num_secreto = random.randint(1, 100)
+num_ingresado = int(input("Introduce un número: "))
+
+while num_secreto != num_ingresado and intentos > 1:
+    if num_secreto > num_ingresado:
+        print("Muy bajo. ", end="")
+    else:
+        print("Muy alto. ",end="")
+    intentos -= 1
+    print("Quedan", intentos, "intentos")
+    num_ingresado = int(input("Intentalo otra vez: "))
+
+if num_secreto == num_ingresado:
+    print("Número correcto.\nIntentos restantes:",intentos)
+else:
+    print("El número era:",num_secreto)

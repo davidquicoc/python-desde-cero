@@ -1,4 +1,5 @@
-# Realizar una algoritmo que muestre la tabla de multiplicar de un número introducido por teclado.
+# Realizar una algoritmo que muestre la tabla de multiplicar
+# de un número introducido por teclado.
 
 num = int(input("Introduce un número: "))
 
