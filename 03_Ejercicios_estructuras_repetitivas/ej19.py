@@ -17,12 +17,12 @@ while True:
     elif opcion == 2:
         print("Películas animadas:")
         print(" + Soul (Pixar 2020, Pete Docter)")
-        print(" + Wild Robot (2024, Chris Sanders)")
+        print(" + The Wild Robot (DreamWorks Animation 2024, Chris Sanders)")
         print(" + The Land Before Time (Universal Pictures 1988, Don Bluth)")
     elif opcion == 3:
         print("Pistas de música favoritas:")
         print(" + Human Nature - Michael Jackson")
-        print(" + No es personal - Underaiki")
+        print(" + No Es Personal - Underaiki")
         print(" + Something Comforting - Porter Robinson")
     elif opcion == 4:
         print("Gracias, vuelva prontos")
