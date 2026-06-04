@@ -7,7 +7,7 @@ while True:
     print("   2. Películas animadas")
     print("   3. Pistas de música favoritas")
     print("   4. Salir")
-    opcion = int(input("Elija una opción (1-5): "))
+    opcion = int(input("Elija una opción (1-4): "))
     
     if opcion == 1:
         print("Series animadas:")
